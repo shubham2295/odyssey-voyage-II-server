@@ -5,3 +5,7 @@ headers:
           named: 'Authorization'
 include_subgraph_errors:
   all: true # Propagate errors from all subgraphs
+cors:
+  origins:
+    - http://localhost:3000
+    - https://studio.apollographql.com
